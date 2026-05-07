@@ -1,5 +1,5 @@
-#Design-patterns
-##Strategy pattern
+# Design-patterns
+## Strategy pattern
 O objetivo do serviço é cancelar transações com status AUTORIZACAO_CARTAO_REJEITADA e EFETIVACAO_REJEITADA.
 * A interface ICancelService contém os métodos:
   - canCancel: identifica se a transação deve ser cancelada de acordo com o status
